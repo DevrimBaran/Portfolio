@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonActivity">
+
+    <EditText
+        android:id="@+id/firstNameEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:focusableInTouchMode="true"
+        android:hint="First name"
+        android:inputType="text"
+        android:digits="qwertzuiopasdfghjklyxcvbnmß QWERTZUIOPASDFGHJKLYXCVBNMÜÖÄüöä"
+        app:layout_constraintBottom_toTopOf="@+id/lastNameEditTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lastNameEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Last name"
+        android:inputType="text"
+        android:digits="qwertzuiopasdfghjklyxcvbnm ßQWERTZUIOPASDFGHJKLYXCVBNMÖÜÄöüä"
+        app:layout_constraintBottom_toTopOf="@+id/ageEditTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameEditTxt" />
+
+    <EditText
+        android:id="@+id/ageEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/insertBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameEditTxt" />
+
+    <Button
+        android:id="@+id/insertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="onClickInsertBtn"
+        android:text="Insert"
+        app:layout_constraintBottom_toTopOf="@+id/personsRecyclerView"
+        app:layout_constraintEnd_toStartOf="@+id/readXmlBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditTxt" />
+
+    <Button
+        android:id="@+id/readXmlBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="onClickReadXmlBtn"
+        android:text="Read XML"
+        app:layout_constraintBottom_toTopOf="@+id/personsRecyclerView"
+        app:layout_constraintEnd_toStartOf="@+id/exportBtn"
+        app:layout_constraintStart_toEndOf="@+id/insertBtn"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditTxt" />
+
+    <Button
+        android:id="@+id/exportBtn"
+        android:layout_width="104dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="onClickJsonBtn"
+        android:text="Export to JSON"
+        app:layout_constraintBottom_toTopOf="@+id/personsRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/readXmlBtn"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditTxt" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/personsRecyclerView"
+        android:layout_width="246dp"
+        android:layout_height="211dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertBtn" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persons>
+    <person age="60">
+        <first>
+            Klaus
+        </first>
+        <last>
+            Müller
+        </last>
+    </person>
+
+    <person age="31">
+        <first>
+            Leon
+        </first>
+        <last>
+            Schroeder
+        </last>
+    </person>
+
+    <person age="24">
+        <first>
+            Manuela
+        </first>
+        <last>
+            Kortig
+        </last>
+    </person>
+
+</persons>
