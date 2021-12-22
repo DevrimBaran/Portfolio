@@ -2,6 +2,7 @@
 - Ich studiere seit 2017 Softwaretechnik an der Universität Stuttgart. <br />
 - Hier sehen Sie all meine ehemaligen Projekte. <br />
 - Bis jetzt habe ich zwei Android Apps und eine Webapplikation entwickelt.
+- Mein aktuelles Projekt ist es eine Masseging Engine für eine IoT Umgebung zu entwickeln, mit dem die IoT Geräte direkt miteinander kommunizieren können, ohne erst mit dem Server zu kommunizieren. Dies ist dafür gedacht die Effiziens in Smart Factories sowie Smart Cities zu steigern.
 
 ## Querimonia
 Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Meine persönliche Note für die Applikation ist 2.0. Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese ab mitte Januar im Ordner Querimonia. <br />
