@@ -11,6 +11,6 @@ Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Co
 ## Genua Connect
 Genua Connect ist eine Android Applikation, die für das Betriebssystem Android 9 entwickelt wurde. <br />
 Mit dieser App kann man sich mit dem Netzwerkprotokoll SNMP mit SNMP fähigen Geräten anmelden. Diesen Geräten kann man dann SNMP Anfragen schicken und so Informationen über die geräte einsehen. Mit der App kann man sich direkt ins WLAN anmelden, indem man einen QR Code eingibt. Mit einem QR Code kann man sich dann auch mit den SNMP fähigen Geräten anmelden. <br />
-Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese im Ordner Genua Connect. Diese Applikation war ein unbenotetes Softwareprojekt der Universität Stuttgart in Kooperation mit der Firma Genua GmbH mit 2 weiteren Teilnehmern
+Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese im Ordner GenuaConnect. Diese Applikation war ein unbenotetes Softwareprojekt der Universität Stuttgart in Kooperation mit der Firma Genua GmbH mit 2 weiteren Teilnehmern
 
 ## 
