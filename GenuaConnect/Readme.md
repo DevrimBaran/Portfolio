@@ -1,21 +1,21 @@
 # Genua Connect
 
-Screenshot of Genua Connect (in use) / in app view by Arton Kastrati
+Screenshot of Genua Connect (in use) / in app view by Arton Kastrati <br />
 ![Screenshot of Genua Connect / in app view by Samuel Gigliotti](doc/images/Screenshot_0.png)
 
-Screenshot of Genua Connect (in use) / in app view by Arton Kastrati
+Screenshot of Genua Connect (in use) / in app view by Arton Kastrati <br />
 ![Screenshot of Genua Connect / in app view by Samuel Gigliotti](doc/images/Screenshot_1.png)
 
-Screenshot of Genua Connect (in use) / in app view by Arton Kastrati
+Screenshot of Genua Connect (in use) / in app view by Arton Kastrati <br />
 ![Screenshot of Genua Connect / in app view by Samuel Gigliotti](doc/images/Screenshot_2.png)
 
-Screenshot of Genua Connect (in use) / in app view by Arton Kastrati
+Screenshot of Genua Connect (in use) / in app view by Arton Kastrati <br />
 ![Screenshot of Genua Connect / in app view by Samuel Gigliotti](doc/images/Screenshot_3.png)
 
-Screenshot of Genua Connect (in use) / in app view by Arton Kastrati
+Screenshot of Genua Connect (in use) / in app view by Arton Kastrati <br />
 ![Screenshot of Genua Connect / in app view by Samuel Gigliotti](doc/images/Screenshot_4.png)
 
-Screenshot of Genua Connect (in use) / in app view by Arton Kastrati
+Screenshot of Genua Connect (in use) / in app view by Arton Kastrati <br />
 ![Screenshot of Genua Connect / in app view by Samuel Gigliotti](doc/images/Screenshot_5.png)
 
 
