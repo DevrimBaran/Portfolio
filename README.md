@@ -4,7 +4,7 @@
 - Bis jetzt habe ich zwei Android Apps und eine Webapplikation entwickelt.
 
 ## Querimonia
-Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Meine persönliche Note für die Applikation ist 2.0. Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese im Ordner Querimonia (Momentan ist der Ordner noch leer. Im Januar werde ich das Projekt einfügen). <br />
+Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Meine persönliche Note für die Applikation ist 2.0. Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese ab mitte Januar im Ordner Querimonia. <br />
 
 Querimonia ist eine Webapplikation, die dafür gedacht ist die Arbeit von Support Mitarbeitern zu erleichtern, die für die öffentlichen Busverkehrsunternehmen arbeiten. Die Applikation kann Beschwerden von Kunden einlesen und die nötigen Informationen wie Name, IBAN, Busnummer, Bushaltestation, usw. extrahieren. Auch Sprachnachrichten kann die Applikation zu Text umschreiben dann. Die Applikation analysiert über die Beschwerde auch die potentielle Gefühslage des schreibers. Die Applikation erkennt auch mittels eines Machine Learning Modells, ob es sich darum handelt ob der Bus zu spät kam, der Bus zu früh abgefahren ist, der Bus nicht gekommen ist, der Busfahrer unfreundlich war oder es sich um sonstige Themen handelt. Mit diesen Informationen erstellt Querimonia dann automatische Antwortbausteine, die der Mitarbeiter dann zusammenfügen und eventuell noch bearbeiten kann. <br />
 
