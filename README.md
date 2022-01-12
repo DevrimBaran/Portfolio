@@ -20,7 +20,7 @@ Unter anderem habe ich eben auch einen Lemmatizer implementiert in die Applikati
 Diese Applikation war ein unbenotetes Softwareprojekt der Universität Stuttgart in Kooperation mit der Firma Genua GmbH mit 2 weiteren Teilnehmern. Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese im Ordner GenuaConnect. Hier finden Sie auch eine installierbare APK für Ihr Android gerät. <br />
 
 Genua Connect ist eine Android Applikation, die für das Betriebssystem Android 9 entwickelt wurde. <br />
-Mit dieser App kann man sich mit dem Netzwerkprotokoll SNMP mit SNMP fähigen Geräten anmelden. Diesen Geräten kann man SNMP Anfragen schicken und so Informationen über die geräte einsehen. Mit der App kann man sich direkt ins WLAN anmelden, indem man einen QR Code eingibt. Mit einem QR Code kann man mit den SNMP fähigen Geräten anmelden. Das Projekt wurde fast ausschließlich mit Java entwickelt. <br />
+Mit dieser App kann man sich mit dem Netzwerkprotokoll SNMP mit SNMP fähigen Geräten anmelden. Diesen Geräten kann man SNMP Anfragen schicken und so Informationen über die geräte einsehen. Mit der App kann man sich direkt ins WLAN anmelden, indem man einen QR Code einliest. Mit einem QR Code kann man sich auch mit den SNMP fähigen Geräten anmelden. Das Projekt wurde fast ausschließlich mit Java entwickelt. <br />
 
 Ich habe in diesem Projekt die Aufgabe übernommen das SNMP Protokoll und die Anmeldung über QR Code für WIFI und SNMP zu implementieren. Auch habe ich die Anzeige der Netzwerkinformationen des eigenen Gerätes implementiert.
 
