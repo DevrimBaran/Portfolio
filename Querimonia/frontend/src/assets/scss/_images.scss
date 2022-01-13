@@ -1,0 +1,35 @@
+.spotlight {
+    width: 100%;
+    height: 15vw;
+    margin-bottom: 5%;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.introduction_image {
+    border: solid 0.25rem lightgreen;
+    box-shadow: 0.625rem 0.625rem 0.9375rem silver;
+    border-radius: 1.25rem;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.team {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+   img{
+     width: 100%;
+     margin: 0 1%;
+   }
+ }
+
+

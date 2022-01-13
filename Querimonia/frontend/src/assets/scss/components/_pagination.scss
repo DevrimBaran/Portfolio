@@ -1,0 +1,39 @@
+@import '../variables';
+
+.pagination {
+  display: block;
+  margin: auto;
+  
+  span.count {
+    cursor: pointer;
+
+    &.current {
+      color: $primary;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.625rem;
+    display: inline-flex;
+    
+
+    li {
+      border: 0.0625rem solid $primary;
+      padding: 0.3125rem 0.625rem;
+      cursor: pointer;
+
+      &.current {
+        color: $white;
+        background-color: $primary;
+        cursor: initial;
+      }
+
+      &.disabled {
+        color: $grey;
+        cursor: initial;
+      }
+    }
+  }
+}

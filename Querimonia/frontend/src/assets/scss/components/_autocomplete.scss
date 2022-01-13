@@ -1,0 +1,50 @@
+@import '../variables';
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+    flex-grow: 1;
+    
+    .input {
+        display: inline-flex;
+        flex-direction: column;
+        input {
+            width: 100%;
+        }
+    }
+
+    .predictions {
+        @extend %inputs;
+        flex-direction: column;
+        border-top: none;
+        width: calc(100% - 1.25rem);
+        display: none;
+        border-top: none;
+        position: absolute;
+        top: calc(100% - 1.25rem);
+        border: 0.0625rem solid;
+        border-top: none;
+        padding-top: 0.625rem;
+        border-radius: 0 0 0.625rem 0.625rem;
+        z-index: 9;
+        & > input {
+            margin: 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 0;
+            &:last-child {
+                border-radius: 0 0 0.625rem 0.625rem;
+            }
+            &:hover, &.active {
+                background-color: $lightgrey;
+            };
+            &.active {
+                color: $primary;
+            }
+
+        }
+    }
+    input:focus + .predictions {
+        display: flex;
+    }
+}

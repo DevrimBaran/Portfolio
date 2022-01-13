@@ -1,0 +1,23 @@
+.Form {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 1.25rem 0.625rem !important;
+    z-index: 99999;
+    box-shadow: 0 0.625rem 1.25rem -1.25rem black;
+    & > label {
+        font-family: inherit;
+        white-space: nowrap;
+        display: block;
+        width: 100%;
+        padding-bottom: 0.625rem;
+        font-size: 1.3rem;
+        background-color: $white;
+        color: $primaryAccentColor;
+        font-weight: bolder;
+    }
+    & > * {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+    }
+}

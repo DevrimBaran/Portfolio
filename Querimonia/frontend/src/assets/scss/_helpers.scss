@@ -1,0 +1,147 @@
+.center {
+    text-align: center;
+    justify-content: center;
+    margin: 0rem auto;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.justify {
+    text-align: justify;
+}
+.centerleft {
+    text-align: left;
+    justify-content: center;
+    margin: 0rem auto;
+}
+.underline {
+    text-decoration: underline;
+}
+.pointer {
+    cursor: pointer;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.padding {
+    padding: $standardpadding;
+}
+.grid {
+    display: grid;
+}
+.max-width{
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paddingVertical {
+    padding-top: $standardpadding;
+    padding-bottom: $standardpadding;
+}
+
+.smallmargin {
+    margin: $smallmargin;
+}
+
+@keyframes fa-spin-center {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.loading::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: $primary;
+    content: "\f110";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5.625rem;
+    transform: translate(-50%, -50%);
+    animation: fa-spin-center 1s infinite steps(8);
+}
+
+.margin {
+    margin-top: $standardmargintop;
+    margin-right: $standardmarginright;
+    margin-bottom: $standardmarginbottom;
+    margin-left: $standardmarginleft;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.floatLeft {
+    float: left;
+    overflow: auto;
+}
+
+.floatRight{
+    float: right;
+    overflow: auto;
+}
+
+.hover{
+    background-color: $primaryBackgroundColor;
+}
+
+.hover:hover{
+    background-color: $secondaryBackgroundColor;
+}
+
+.Block {
+    position: relative;
+}
+
+.has-tooltip {
+    position: relative;
+    .tooltip {
+        position: absolute;
+        left: 50%;
+        bottom: 100%;
+        border: 0.0625rem solid $grey;
+        background-color: $white;
+        padding: 0.625rem;
+        transform: translateX(-50%); 
+        display: none;
+        z-index: 99999;
+        &::after {
+            content: '';
+            display: block;
+            position: relative;
+            transform-origin: center center;
+            transform: rotate(45deg);
+            background-color: $white;
+            border-bottom: 0.0625rem solid $grey;
+            border-right: 0.0625rem solid $grey;
+            width: 0.875rem;
+            height: 0.875rem;
+            top: 1.125rem;
+            left: calc(50% - 0.4375rem);
+        }
+    }
+    &:hover {
+        .tooltip {
+            display: block;
+        }
+    }
+}

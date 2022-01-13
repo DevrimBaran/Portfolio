@@ -1,0 +1,30 @@
+.ListTable {
+    border-spacing: 0;
+    background-color: inherit;
+    thead {
+        background-color: inherit;
+        tr {
+            background-color: inherit;
+            th {
+                position: sticky;
+                top: 0;
+                background-color: inherit;
+                text-align: left;
+            }
+        }
+    }
+    tbody {
+        vertical-align: top;
+        tr {
+            &:hover {
+                background-color: $lightgrey;
+            }
+            td {
+                padding: 0.125rem 0;
+            }
+        }
+    }
+    .action-button {
+        padding: 0;
+    }
+}

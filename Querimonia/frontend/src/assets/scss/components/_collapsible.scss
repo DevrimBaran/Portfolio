@@ -1,0 +1,63 @@
+@import '../variables';
+
+.collapsible {
+    position: relative;
+    overflow: hidden;
+    height: 1.875rem;
+    min-height: 1.875rem;
+    box-sizing: content-box;
+    // padding-left: 0rem !important;
+    // padding-right: 0rem !important;
+    .handle {
+        position: relative;
+        display: block;
+        line-height: 0.9375rem;
+        width: 100%;
+        height: 0.9375rem;
+        cursor: pointer;
+        color: $primaryTextColor;
+        font-size: 0.9375rem;      
+        //padding: 0.625rem 0;
+        z-index: 1;
+        &::before {
+            position: relative;
+            display: block;
+            content: '';
+            top: 0.4375rem;
+            border-top: 0.0625rem solid $tertiaryBackgroundColor;
+        }
+        i {
+            position: relative;
+            padding: 0 0.3125rem;
+            margin-left: 0.625rem;
+            background-color: $primaryBackgroundColor;
+        }
+        span {
+            position: relative;
+            padding-right: 0.625rem;
+            background-color: $primaryBackgroundColor;
+        }
+    }
+    & + * {
+        padding-top: 0rem !important;
+        margin-top: 0rem !important;
+    }
+    &.disabled .handle {
+        color: $grey;
+        cursor: initial;
+        &::before {
+            border-top: 0.0625rem solid $tertiaryBackgroundColor;
+        }
+        span {
+            color: $grey;
+        }
+    }
+    &[data-collapse=true] {
+        & + * {
+            display: none;
+            & + .collapsible {
+                padding-top: 0rem;
+            }
+        }
+    }
+}
