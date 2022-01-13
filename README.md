@@ -9,7 +9,7 @@ Mein aktuelles Projekt ist es eine Masseging Engine für eine IoT Umgebung zu en
 
 ## Fertige Projekte
 ### Querimonia
-Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Das Projekt hat 6 Monate in Anspruch genommen. Meine persönliche Note für die Applikation ist 2.0. Falls Sie sich die Applikation näher mit dem dazugehörigen Code anschauen wollen, finden Sie diese ab mitte Januar im Ordner Querimonia. <br />
+Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Das Projekt hat 6 Monate in Anspruch genommen. Meine persönliche Note für die Applikation ist 2.0. Falls Sie sich die Applikation näher mit dem dazugehörigen Code anschauen wollen, finden Sie diese im Ordner Querimonia. <br />
 
 Querimonia ist eine Webapplikation, die dafür gedacht ist die Arbeit von Support Mitarbeitern zu erleichtern, die für die öffentlichen Busverkehrsunternehmen arbeiten. Die Applikation kann Beschwerden von Kunden einlesen und die nötigen Informationen wie Name, IBAN, Busnummer, Bushaltestation, usw. extrahieren. Auch Sprachnachrichten kann die Applikation zu Text umschreiben. Die Applikation analysiert über die Beschwerde auch die potentielle Gefühslage des schreibers. Die Applikation erkennt auch mittels eines Machine Learning Modells, ob es sich darum handelt ob der Bus zu spät kam, der Bus zu früh abgefahren ist, der Bus nicht gekommen ist, der Busfahrer unfreundlich war oder es sich um sonstige Themen handelt. Mit diesen Informationen erstellt Querimonia automatische Antwortbausteine, die der Mitarbeiter lediglich zusammenfügen und gegebenenfalls noch bearbeiten kann. <br />
 
