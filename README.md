@@ -5,7 +5,7 @@
 
 ## Aktuelle Projekte
 ### Entwicklung einer Messaging Engine für eine IoT Umgebung zur direkten Kommunikation zwischen den Geräten
-Mein aktuelles Projekt ist es eine Masseging Engine für eine IoT Umgebung zu entwickeln. Mit dieser Engine sollen die IoT Geräte direkt miteinander kommunizieren können, ohne erst mit dem Server zu kommunizieren. Dies ist dafür gedacht die Effiziens in Smart Factories sowie Smart Cities zu steigern. Da das Projekt noch nicht fertig ist, ist es noch nicht auf meinem Portfolio zu finden. Das Projekt wird vermutlicht erst in 6 Monaten fertig.
+Mein aktuelles Projekt ist es eine Masseging Engine für eine IoT Umgebung zu entwickeln. Mit dieser Engine sollen die IoT Geräte direkt miteinander kommunizieren können, ohne erst mit dem Server zu kommunizieren. Dies ist dafür gedacht die Effiziens in Smart Factories sowie Smart Cities zu steigern. Da das Projekt noch in der Entwicklung ist, ist es noch nicht in meinem Portfolio aufzufinden.
 
 ## Fertige Projekte
 ### Querimonia
