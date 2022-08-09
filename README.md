@@ -1,15 +1,17 @@
 # Willkommen zu meinem Portfolio
 - Ich studiere seit 2017 Softwaretechnik an der Universität Stuttgart. <br />
 - Hier sehen Sie all meine ehemaligen Projekte. <br />
-- Bis jetzt habe ich zwei Android Apps und eine Webapplikation entwickelt.
 
-## Aktuelle Projekte
-### Entwicklung einer Messaging Engine für eine IoT Umgebung zur direkten Kommunikation zwischen den Geräten
-Mein aktuelles Projekt ist es eine Masseging Engine für eine IoT Umgebung zu entwickeln. Mit dieser Engine sollen die IoT Geräte direkt miteinander kommunizieren können, ohne erst mit dem Server zu kommunizieren. Dies ist dafür gedacht die Effiziens in Smart Factories sowie Smart Cities zu steigern. Da das Projekt noch in der Entwicklung ist, ist es noch nicht in meinem Portfolio aufzufinden.
+## Projekte
+### Messeaging Engine 2
+Dieses Projekt war eine Entwicklung einer Messaging Engine für eine IoT Umgebung zur direkten Kommunikation zwischen den einzelnen Geräten. Mit dieser Entwicklung ist es möglich, dass Geräte ohne einen Zwischenserver direkt Informationen untereinander versenden können. Als Prototyp wurden hier Raspberry Pis benutzt, die Sensoren und auch Aktoren angeschlossen hatten. Die Raspberry Pis können jeweils gegenseitig Sensordaten von anderen Raspberry Pis abfragen, aber auch jeweils gegenseitig Aktuatoren von den Raspberry Pis ansteuern. Dies ist dafür gedacht die Effiziens in Smart Factories sowie Smart Cities zu steigern. Bei Interesse für dieses System und dem dazugehörigen Source Code, finden Sie dieses unter dem Repository ....<br />
 
-## Fertige Projekte
+Das System selbst garantiert eine At-Least-Once Ausührung aller Nachrichten. Auch ist eine Art Recovery implementiert, die im Falle eines Absturzes eines Gerätes die letzte auszuführende Aktion wieder aufnimmt. Zusätzlich ist das System so entwickelt, dass die Geräte im lokalen Netz, die auch eine Instanz dieser Applikation gestartet haben, sich gegenseitig finden können und sich gegenseitig jeweils in die Datenbank eintragen, um miteinander kommunizieren zu können.<br />
+
+In diesem Projekt war ich für die Implementierung der Sensor- sowie Aktuatorschnittstellen zuständig. Diese erlauben ohne größere Änderungen an der Implementierung eine theoretisch unendliche Anzahl an Sensoren und Aktuatoren. Man sollte natürliche die physisch maximale Anzahl des anzuschließenden Gerätes beachten. Auch habe ich eine Konfigurationsdatei erstellt, mit der viele Einstellungen einfach in dieser Datei vorgenommen werden können ohne die Implementierung zu ändern. Diese Datei ist auch wiederverwendbar über mehrere Geräte hinweg. Zu den Einstellungen gehören diverse Netzwerkeinstellungen für die Kommunikation sowie Sensor und AKtuatoreinstellungen.
+
 ### Querimonia
-Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Das Projekt hat 6 Monate in Anspruch genommen. Meine persönliche Note für die Applikation ist 2.0. Falls Sie sich die Applikation näher mit dem dazugehörigen Code anschauen wollen, finden Sie diese im Repository Querimonia https://github.com/DevrimBaran/Querimonia. <br />
+Diese Applikation war ein Studienprojekt der Universität in Kooperation mit dem Frauenhofer Institut mit 11 weiteren Teilnehmern. Das Projekt hat 6 Monate in Anspruch genommen. Falls Sie sich die Applikation näher mit dem dazugehörigen Code anschauen wollen, finden Sie diese im Repository Querimonia https://github.com/DevrimBaran/Querimonia. <br />
 
 Querimonia ist eine Webapplikation, die dafür gedacht ist die Arbeit von Support Mitarbeitern zu erleichtern, die für die öffentlichen Busverkehrsunternehmen arbeiten. Die Applikation kann Beschwerden von Kunden einlesen und die nötigen Informationen wie Name, IBAN, Busnummer, Bushaltestation, usw. extrahieren. Auch Sprachnachrichten kann die Applikation zu Text umschreiben. Die Applikation analysiert über die Beschwerde auch die potentielle Gefühslage des schreibers. Die Applikation erkennt auch mittels eines Machine Learning Modells, ob es sich darum handelt ob der Bus zu spät kam, der Bus zu früh abgefahren ist, der Bus nicht gekommen ist, der Busfahrer unfreundlich war oder es sich um sonstige Themen handelt. Mit diesen Informationen erstellt Querimonia automatische Antwortbausteine, die der Mitarbeiter lediglich zusammenfügen und gegebenenfalls noch bearbeiten kann. <br />
 
@@ -26,4 +28,4 @@ Ich habe in diesem Projekt die Aufgabe übernommen das SNMP Protokoll und die An
 
 ### DB Projekt
 Dies war ein kleines Java einzelprojekt. Das Ziel der App war es, Namen mit Alter im JSON Format einspeichern zu können und die gleichen Daten auch aus einer XML Datei zu lesen. Zusätzlich sollte man die Fakultät von einer beliebigen Zahl auslesen können. <br />
-Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese im Ordner DBProjekt. Meine Note für diese Applikation beträgt 1.0.
+Falls Sie sich die Applikation näher anschauen wollen mit dem dazugehörigen Code finden Sie diese im Ordner DBProjekt.
