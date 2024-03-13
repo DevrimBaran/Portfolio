@@ -1,6 +1,6 @@
 # Willkommen zu meinem Portfolio
-- Ich habe 2023 mein Softwaretechnik an der Universität Stuttgart absolviert. <br />
-- Seit 2023 habe ich zum Anschluss meines Absolvierten Softwaretechnik Studiums an der Universität Stuttgart ein Informatik Master angefangen.
+- Ich habe 2023 mein Softwaretechnik Bachelor Studium an der Universität Stuttgart absolviert. <br />
+- Seit 2023 habe ich zum Anschluss meines Absolvierten Softwaretechnik Studiums an der Universität Stuttgart ein Informatik Master Studium angefangen.
 - Hier sehen Sie all meine ehemaligen Projekte. <br />
 
 ## Projekte
