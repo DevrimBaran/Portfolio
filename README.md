@@ -4,6 +4,9 @@
 - Hier sehen Sie all meine ehemaligen Projekte. <br />
 
 ## Projekte
+### Verteiltes Kommunikationssystem mit reliable totally ordered UDP Multicast Nachrichten
+Dieses Projekt ist durch ein universitäres Gruppenprojekt entstanden. Das entstandende Projekt ist ein Auktionssystem, welches zur Kommunikation zwischen den Bietern und Auktionären einen reliable totally ordered UDP Multicast nutzt. Das Programm ist ein Kommandozeilenprogramm, da der Fokus in diesem Projekt auf dem reliable totally ordered UDP Multicast liegt. Um diese Funktionalität zu gewährleisten, habe wir den "ISIS Algorithm for total ordering" implementiert. Desweiteren unterstützt das System auch ein Heartbeat, damit im Falle des Absturz eines Teilnehmers des Systems Maßnahmen ergriffen werden können, damit keine nicht vorgesehenen Aktionen entstehen. Das Projekt finden Sie im Repository https://github.com/confusedSerge/distributed-systems-project. <br /> 
+
 ### Messaging Engine für eine IoT Umgebung zur direkten Kommunikation
 Dieses Projekt war eine Entwicklung einer Messaging Engine für eine IoT Umgebung zur direkten Kommunikation zwischen den einzelnen Geräten. Mit dieser Entwicklung ist es möglich, dass Geräte ohne einen Zwischenserver direkt Informationen untereinander versenden können. Als Prototyp wurden hier Raspberry Pis benutzt, die Sensoren und auch Aktoren angeschlossen hatten. Die Raspberry Pis können jeweils gegenseitig Sensordaten von anderen Raspberry Pis abfragen, aber auch jeweils gegenseitig Aktuatoren von den Raspberry Pis ansteuern. Dies ist dafür gedacht die Effiziens in Smart Factories sowie Smart Cities zu steigern. Bei Interesse für dieses System und dem dazugehörigen Source Code, finden Sie dieses unter dem Repository https://github.com/DevrimBaran/Messaging-Engine-2.<br />
 
