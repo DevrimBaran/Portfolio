@@ -4,6 +4,9 @@
 - Hier sehen Sie all meine ehemaligen Projekte. <br />
 
 ## Projekte
+### Implementierung von verschiedenen Wait-Free Synchronisierungsverfahren für Interprozesskommunikation via Shared Memory für Echtzeitsysteme mittels Rust
+Für meine Masterarbeit muss ich verschiedene Wait-Free Algorithmen für Interprozesskommunikation via Shared Memory implementieren und vergleichen. Dafür habe ich verschiedene Benchmarks geschrieben, um die Performance von MPMC, SPMC, MPSC und SPMC Algorithmen vergleichen zu können. Da die Masterarbeit sich noch in der Entwicklung befindet, befindet sich auch das Projekt in Entwicklung. Es sind aber schon mehrere Algorithmen entwickelt. Um die Performance zu vergleichen habe ich python skripte geschrieben die ein Violine Plot erstellen um die geschwindigkeiten zu vergleichen und für MPMC, SPMC und MPSC Algorithmen noch zusätzlich ein Liniendiagramm um unterschiedliche Performance bei steigender Prozessanzahl sehen zu können.
+
 ### Verteiltes Kommunikationssystem mit reliable totally ordered UDP Multicast Nachrichten
 Dieses Projekt ist durch ein universitäres Gruppenprojekt entstanden. Das entstandende Projekt ist ein Auktionssystem, welches zur Kommunikation zwischen den Bietern und Auktionären einen reliable totally ordered UDP Multicast nutzt. Das Programm ist ein Kommandozeilenprogramm, da der Fokus in diesem Projekt auf dem reliable totally ordered UDP Multicast liegt. Um diese Funktionalität zu gewährleisten, haben wir den "ISIS Algorithm for total ordering" implementiert. Desweiteren unterstützt das System auch ein Heartbeat, damit im Falle des Absturzes eines Teilnehmers des Systems Maßnahmen ergriffen werden können, damit keine nicht vorgesehenen Aktionen entstehen. Das Projekt finden Sie im Repository https://github.com/confusedSerge/distributed-systems-project. <br /> 
 
