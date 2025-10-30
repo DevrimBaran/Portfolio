@@ -5,7 +5,7 @@
 ## 🇩🇪 Deutsche Version / German Version
 
 - Ich habe 2023 mein Softwaretechnik Bachelor Studium an der Universität Stuttgart absolviert und dieses Jahr meinen Informatik Master absolviert. <br />
-- Hier sehen Sie alle meine ehemaligen und laufenden Projekte. <br />
+- Hier sehen Sie alle meine ehemaligen Projekte. <br />
 
 ### Projekte
 
@@ -47,7 +47,7 @@ Die Applikation befindet sich im Ordner DBProjekt.
 ## 🇬🇧 English Version / Englische Version
 
 - I completed my Bachelor's degree in Software Engineering at the University of Stuttgart in 2023 and finished my Master's degree in Computer Science this year. <br />
-- Here you can see all of my former and ongoing projects. <br />
+- Here you can see all of my former projects. <br />
 
 ### Projects
 
